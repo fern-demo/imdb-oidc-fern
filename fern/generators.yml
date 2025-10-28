@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://schema.buildwithfern.dev/generators-yml.json
+default-group: ts-sdk
+groups:
+  ts-sdk:
+    generators:
+      - name: fernapi/fern-typescript-sdk
+        output:
+          location: npm
+          package-name: "@fern-demo/imdb-typescript-sdk"
+          token: ${NPM_TOKEN}
+        github:
+          repository: fern-demo/imdb-oidc-typescript-sdk
+          mode: pull-request
+        version: 3.12.0
+        config: {}
