@@ -11,5 +11,5 @@ groups:
         github:
           repository: fern-demo/imdb-oidc-typescript-sdk
           mode: pull-request
-        version: 3.12.3
+        version: 3.4.0
         config: {}
